@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulta de resultados — DGT</title>
+
+<style>
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #111;
+}
+
+header {
+  background: #ffffff;
+  padding: 10px 15px 5px 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.contenedor {
+  max-width: 850px;
+  margin: 15px auto;
+  padding: 0 15px;
+}
+
+.titulo {
+  background: #4a6382;
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icono-ayuda {
+  background: #3a82c4;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #fff;
+}
+
+.panel {
+  background: #dce4ec;
+  padding: 25px 30px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.campo {
+  margin-bottom: 22px;
+}
+
+.etiqueta {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.valor {
+  padding-left: 15px;
+  font-size: 17px;
+  overflow-wrap: anywhere;
+  color: #111;
+}
+
+.aviso {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 30px;
+  color: #333;
+}
+
+.aviso p {
+  margin: 0 0 15px;
+}
+
+@media (max-width: 600px) {
+  .logos {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .dgt-logo-container {
+    align-items: flex-start;
+  }
+  .sede-bar {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="cabecera-imagen">
+    <img
+        src="IMG_8355.jpeg"
+        alt="Imagen de referencia"
+        style="display: block; width: 100%; height: auto;"
+    >
+</header>
+<main class="contenedor">
+
+  <div class="titulo">
+    <span>RESULTADO NOTAS DE EXÁMENES</span>
+    <div class="icono-ayuda" title="Ayuda">?</div>
+  </div>
+
+  <section class="panel">
+
+    <div class="campo">
+      <div class="etiqueta">APELLIDOS, NOMBRE:</div>
+      <div class="valor">Andrea Beatriz Ticarat</div>
+    </div>
+
+    <div class="campo">
+      <div class="etiqueta">NIF/NIE:</div>
+      <div class="valor">Y1729590-G</div>
+    </div>
+
+    <div class="campo">
+      <div class="etiqueta">CLASE DE PERMISO:</div>
+      <div class="valor">B</div>
+    </div>
+
+    <div class="campo">
+      <div class="etiqueta">TIPO DE PRUEBA:</div>
+      <div class="valor">TEÓRICO COMÚN</div>
+    </div>
+
+    <div class="campo">
+      <div class="etiqueta">FECHA DE EXAMEN:</div>
+      <div class="valor">19/10/2026</div>
+    </div>
+
+    <div class="campo">
+      <div class="etiqueta">CALIFICACIÓN:</div>
+      <div class="valor">APTO</div>
+    </div>
+
+    <div class="campo">
+      <div class="etiqueta">NÚMERO DE ERRORES:</div>
+      <div class="valor">2</div>
+    </div>
+
+    <div class="aviso">
+      <p>Esta información sólo tiene valor informativo.</p>
+
+      <p>
+        <strong>AVISO:</strong> El siguiente texto se incluye
+        únicamente como referencia y constituye
+        una notificación administrativa oficial.
+      </p>
+
+      <p>
+        Contra el informe desfavorable de aptitud en la presente
+        prueba podrá formular, en el plazo de QUINCE DÍAS HÁBILES
+        siguientes a aquél en que se notifique, reclamación ante
+        el Jefe Provincial de Tráfico y, contra la calificación
+        definitiva, RECURSO DE ALZADA ante el Director General de
+        Tráfico en el plazo de un mes a contar desde el día
+        siguiente al de su notificación.
+      </p>
+    </div>
+
+  </section>
+
+</main>
+
+</body>
